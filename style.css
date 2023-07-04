@@ -1,0 +1,66 @@
+#home, #contact-me {
+   background-color: #f8f6f4;
+}
+h1{
+  font-family: 'Belanosima', sans-serif;
+  color: rgb(57, 62, 70);
+}
+a:hover{
+  color: #40514e;
+  cursor: pointer;
+}
+.container2{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  padding: 2% 5% 0 5%;
+  gap: 5%;
+}
+.name{
+  font-family: 'Dancing Script', cursive;
+  color: rgb(130, 148, 196)
+}
+.my-projects{
+  text-align: center;
+  color: #19dce3;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.navbar{
+  justify-content: end;
+}
+#nav-bar-link{
+  font-family: 'Belanosima', sans-serif;
+  font-size: 15px;
+}
+.profile-image{
+  margin: 1%;
+  position: sticky;
+}
+
+p{
+  font-family: 'Kanit', sans-serif;
+  color: rgb(57, 62, 70);
+}
+.personal-website{
+  text-decoration: none;
+  text-align: center;
+  color: rgb(130, 148, 196);
+}
+.tindog, .personal{
+ border-radius: 5%;
+ border: 2px solid #40514e;
+height: 100%;
+width: 100%;
+}
+.tindog-project{
+  text-decoration: none;
+  color: rgb(130, 148, 196);
+  text-align: center;
+}
+.yuvi{
+  font-family: 'Parisienne', cursive;
+  font-size: 30px;
+  color: rgb(130, 148, 196);
+  font-weight: bold;
+}
